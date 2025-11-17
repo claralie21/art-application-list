@@ -95,10 +95,10 @@ function App() {
             </li>
           ))}
           {data.info.prev &&
-            <button onClick={handlePrevPage}>Prev</button>
+            <button className="button" onClick={handlePrevPage}>Prev</button>
           }
           {data.info.next &&
-            <button onClick={handleNextPage}>Next</button>
+            <button className="button" onClick={handleNextPage}>Next</button>
           } 
         </ui>
       )
